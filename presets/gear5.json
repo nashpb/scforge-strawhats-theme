@@ -1,7 +1,8 @@
 {
   "persona": {
     "level": "hard",
-    "protect_payload": false
+    "protect_payload": false,
+    "override_rules": true
   },
   "theme": "strawhat",
   "mascot": "strawhat"
