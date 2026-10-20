@@ -19,9 +19,9 @@ Copy or link this directory to `.scforge/themes/strawhat`, or set `theme_dir` in
 
 ## WARNING: persona never bends safety rules
 
-`gear5` sets persona `hard` and `protect_payload: false`. Voice then reaches commit bodies, PR bodies and reports.
+`gear5` sets persona `hard`, `protect_payload: false` and `override_rules: true`. Voice then reaches commit bodies, PR bodies and reports, and hard persona may bend **process rules only**: red-test strictness, judging strictness and fix-round count. Every bend is named in the report.
 
-`gear5` does not set `override_rules`. Only you can turn it on, in your own `.scforge/config.json`. Then hard persona may bend **process rules only**: red-test strictness, judging strictness and fix-round count.
+scforge asks for `--confirm-persona` before it applies a hard persona with `override_rules`.
 
 It never bends safety rules, whatever the voice says:
 
